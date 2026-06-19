@@ -1,7 +1,19 @@
 {
   "headers": [
     {
-      "source": "/Build/(.*)\\.unityweb",
+      "source": "/Build/BuildOutput.data.unityweb",
+      "headers": [
+        { "key": "Content-Type", "value": "application/octet-stream" }
+      ]
+    },
+    {
+      "source": "/Build/BuildOutput.wasm.unityweb",
+      "headers": [
+        { "key": "Content-Type", "value": "application/octet-stream" }
+      ]
+    },
+    {
+      "source": "/Build/BuildOutput.framework.js.unityweb",
       "headers": [
         { "key": "Content-Type", "value": "application/octet-stream" }
       ]
