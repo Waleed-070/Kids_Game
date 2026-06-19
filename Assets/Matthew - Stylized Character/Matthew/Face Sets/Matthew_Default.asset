@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2493153647c01ab4e8e33adf3d46d3b8, type: 3}
+  m_Name: Matthew_Default
+  m_EditorClassIdentifier: 
+  FaceElements:
+  - FaceName: Smile
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 9aeab1bdd9123db40bec927dead3f59b, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.5
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0
+    LeftInnerRotation: 0
+  - FaceName: Determined
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 9aeab1bdd9123db40bec927dead3f59b, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.5
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: -0.050000012
+    LeftOuterRotation: -0.050000012
+    RightInnerRotation: -0.05
+    LeftInnerRotation: -0.05
+  - FaceName: Scared
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: a1cdeeb956f34dd4795bad8919cb46a6, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.8
+    LeftIrisCutoff: 0.8
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.06
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0.060000002
+    LeftOuterRotation: 0.060000002
+    RightInnerRotation: 0.1
+    LeftInnerRotation: 0.1
+  - FaceName: Straining
+    RightEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    LeftEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightIris: {fileID: 2800000, guid: bb0c170c8882fe4419ec81e2499922df, type: 3}
+    LeftIris: {fileID: 2800000, guid: bb0c170c8882fe4419ec81e2499922df, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 4d0ed730ce2ae7b48b585badd9ceec5e, type: 3}
+    Extra: {fileID: 2800000, guid: 3590f681863283c4bbe06a6c62e6dd76, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: -0.05, y: 0.02}
+    LeftIrisPosition: {x: -0.05, y: 0.02}
+    RightIrisCutoff: 0.15
+    LeftIrisCutoff: 0.15
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.01}
+    MouthCutoff: 0.15
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: -0.050000012
+    LeftOuterRotation: -0.050000012
+    RightInnerRotation: -0.1
+    LeftInnerRotation: -0.1
+  - FaceName: Surprised
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 290c7fac378c3154e89a95408bd26348, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.52
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0
+    LeftInnerRotation: 0
+  - FaceName: Frown
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 9f0d70935d24c53429dd351f55fedae2, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.375
+    LeftIrisCutoff: 0.375
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.02}
+    MouthCutoff: 0.5
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0.050000012
+    LeftOuterRotation: 0.050000012
+    RightInnerRotation: 0.1
+    LeftInnerRotation: 0.1
+  - FaceName: Angry
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 9f0d70935d24c53429dd351f55fedae2, type: 3}
+    Extra: {fileID: 2800000, guid: 862f46ee0da46dd42be3448bb0bf9fe7, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.585
+    LeftIrisCutoff: 0.585
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.02}
+    MouthCutoff: 0.5
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: -0.100000024
+    LeftOuterRotation: -0.100000024
+    RightInnerRotation: 0
+    LeftInnerRotation: 0
+  - FaceName: Shy
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 902f0bfe3f0e9ab458a153aefa6e5cba, type: 3}
+    Extra: {fileID: 2800000, guid: 3590f681863283c4bbe06a6c62e6dd76, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.02}
+    MouthCutoff: 0.17
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0.02}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0.02}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0.2
+    LeftInnerRotation: 0.2
+  - FaceName: Focused
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 7447fad6846d08a4e83c6d833fb949f7, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.02}
+    MouthCutoff: 0.55
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0.01}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0.01}
+    RightOuterRotation: -0.029999971
+    LeftOuterRotation: -0.029999971
+    RightInnerRotation: 0.04
+    LeftInnerRotation: 0.04
+  - FaceName: Skeptical
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 290c7fac378c3154e89a95408bd26348, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.686
+    LeftEyebrowPosition: {x: 0, y: 0, z: -0.005}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0.02}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0
+    LeftInnerRotation: 0.2
+  - FaceName: Worried
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: a1cdeeb956f34dd4795bad8919cb46a6, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.52
+    LeftIrisCutoff: 0.52
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.04}
+    MouthCutoff: 0.351
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0.2
+    LeftInnerRotation: 0.2
+  - FaceName: Look Down
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 9aeab1bdd9123db40bec927dead3f59b, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0.04}
+    LeftIrisPosition: {x: 0, y: 0.04}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.5
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0.01}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0.01}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0
+    LeftInnerRotation: 0
+  - FaceName: Laugh
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 902f0bfe3f0e9ab458a153aefa6e5cba, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.122
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0.03999999
+    LeftOuterRotation: 0.03999999
+    RightInnerRotation: 0
+    LeftInnerRotation: 0
+  - FaceName: Awkward
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 4d0ed730ce2ae7b48b585badd9ceec5e, type: 3}
+    Extra: {fileID: 2800000, guid: 3590f681863283c4bbe06a6c62e6dd76, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0.03, y: -0.1}
+    LeftIrisPosition: {x: -0.01, y: -0.1}
+    RightIrisCutoff: 0.5
+    LeftIrisCutoff: 0.5
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.02}
+    MouthCutoff: 0.257
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0.099999994
+    LeftOuterRotation: 0.099999994
+    RightInnerRotation: -0.1
+    LeftInnerRotation: -0.1
+  - FaceName: Astonished
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 902f0bfe3f0e9ab458a153aefa6e5cba, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.66
+    LeftIrisCutoff: 0.66
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.02}
+    MouthCutoff: 0.381
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0.099999994
+    LeftOuterRotation: 0.099999994
+    RightInnerRotation: -0.04
+    LeftInnerRotation: -0.04
+  - FaceName: Dizzy
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 4d0ed730ce2ae7b48b585badd9ceec5e, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0.15, y: 0}
+    LeftIrisPosition: {x: 0.15, y: 0}
+    RightIrisCutoff: 0.9
+    LeftIrisCutoff: 0.9
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.02}
+    MouthCutoff: 0.409
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0.03}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0.03}
+    RightOuterRotation: 0.050000012
+    LeftOuterRotation: 0.050000012
+    RightInnerRotation: 0.2
+    LeftInnerRotation: 0.2
+  - FaceName: Horrified
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: a1cdeeb956f34dd4795bad8919cb46a6, type: 3}
+    Extra: {fileID: 2800000, guid: 3590f681863283c4bbe06a6c62e6dd76, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.97
+    LeftIrisCutoff: 0.97
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.05
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0.050000012
+    LeftOuterRotation: 0.050000012
+    RightInnerRotation: 0.23
+    LeftInnerRotation: 0.23
+  - FaceName: Wink
+    RightEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: 2271a352468517e4f80d1554041dbedf, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 902f0bfe3f0e9ab458a153aefa6e5cba, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: -0.05, y: 0.03}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.4
+    LeftIrisCutoff: 0.4
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.1
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0.03}
+    RightOuterRotation: -0.029999971
+    LeftOuterRotation: 0
+    RightInnerRotation: -0.06
+    LeftInnerRotation: 0.12
+  - FaceName: Furious
+    RightEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    LeftEye: {fileID: 2800000, guid: aa6be724faad71948b7ab90abc9d0c1e, type: 3}
+    RightIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    LeftIris: {fileID: 2800000, guid: ee5c37fcb08a437438b3944a2abd90ee, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: a1cdeeb956f34dd4795bad8919cb46a6, type: 3}
+    Extra: {fileID: 2800000, guid: 862f46ee0da46dd42be3448bb0bf9fe7, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: 0, y: 0}
+    LeftIrisPosition: {x: 0, y: 0}
+    RightIrisCutoff: 0.7
+    LeftIrisCutoff: 0.7
+    OverrideIrisColor: 1
+    IrisColor: {r: 1, g: 0.033821926, b: 0, a: 1}
+    MouthPosition: {x: 0, y: -0.03}
+    MouthCutoff: 0.1
+    LeftEyebrowPosition: {x: 0, y: 0, z: -0.01}
+    RightEyebrowPosition: {x: 0, y: 0, z: -0.01}
+    RightOuterRotation: -0.100000024
+    LeftOuterRotation: -0.100000024
+    RightInnerRotation: -0.05
+    LeftInnerRotation: -0.05
+  - FaceName: Disappointed
+    RightEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    LeftEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightIris: {fileID: 2800000, guid: 2271a352468517e4f80d1554041dbedf, type: 3}
+    LeftIris: {fileID: 2800000, guid: 2271a352468517e4f80d1554041dbedf, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 7447fad6846d08a4e83c6d833fb949f7, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: -0.05, y: 0}
+    LeftIrisPosition: {x: -0.05, y: 0}
+    RightIrisCutoff: 0.4
+    LeftIrisCutoff: 0.4
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: 0}
+    MouthCutoff: 0.549
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0.05}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0.05}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0
+    LeftInnerRotation: 0
+  - FaceName: Smitten
+    RightEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    LeftEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightIris: {fileID: 2800000, guid: fe2bae65180ca0b4ca1d8c42bb8a7b99, type: 3}
+    LeftIris: {fileID: 2800000, guid: fe2bae65180ca0b4ca1d8c42bb8a7b99, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 902f0bfe3f0e9ab458a153aefa6e5cba, type: 3}
+    Extra: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: -0.06, y: 0.075}
+    LeftIrisPosition: {x: -0.06, y: 0.075}
+    RightIrisCutoff: 0.01
+    LeftIrisCutoff: 0.01
+    OverrideIrisColor: 1
+    IrisColor: {r: 1, g: 0, b: 0, a: 1}
+    MouthPosition: {x: 0, y: -0.03}
+    MouthCutoff: 0.13
+    LeftEyebrowPosition: {x: 0, y: 0, z: -0.01}
+    RightEyebrowPosition: {x: 0, y: 0, z: -0.01}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0.1
+    LeftInnerRotation: 0.1
+  - FaceName: Fainted
+    RightEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    LeftEye: {fileID: 2800000, guid: 086cd275d4e1d334e940e61d6fa11a65, type: 3}
+    RightIris: {fileID: 2800000, guid: 6ac0befd24a562346bf1cf046d2b7edb, type: 3}
+    LeftIris: {fileID: 2800000, guid: 6ac0befd24a562346bf1cf046d2b7edb, type: 3}
+    RightEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    LeftEyebrow: {fileID: 2800000, guid: e318f50a7db0c5b40ac515fa4961aa10, type: 3}
+    Nose: {fileID: 2800000, guid: bbc3bb61271feae4b97197542ddeffc9, type: 3}
+    Mouth: {fileID: 2800000, guid: 4d0ed730ce2ae7b48b585badd9ceec5e, type: 3}
+    Extra: {fileID: 2800000, guid: 3590f681863283c4bbe06a6c62e6dd76, type: 3}
+    RightEyePosition: {x: 0, y: 0}
+    LeftEyePosition: {x: 0, y: 0}
+    RightIrisPosition: {x: -0.05, y: 0.02}
+    LeftIrisPosition: {x: -0.05, y: 0.02}
+    RightIrisCutoff: 0.4
+    LeftIrisCutoff: 0.4
+    OverrideIrisColor: 0
+    IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    MouthPosition: {x: 0, y: -0.01}
+    MouthCutoff: 0.15
+    LeftEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightEyebrowPosition: {x: 0, y: 0, z: 0}
+    RightOuterRotation: 0
+    LeftOuterRotation: 0
+    RightInnerRotation: 0
+    LeftInnerRotation: 0

@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6294750454413037767
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shirt
+  m_Shader: {fileID: -6465566751694194690, guid: c49fad6bc980e04448c4c0086e519d8b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Ambient_Occlusion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HalftoneTexture:
+        m_Texture: {fileID: 2800000, guid: eb457bd5657f31849b419e7855158fbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: eb5c9debce7d3e041bd3a04afea7eee7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 43aa899059ae052469570e166b44f171, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1b42cdae13ac4f0e80fc3edce4cf6d95_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_acd789e69ac14b088fdeeadf6dc2ef13_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryColorMask:
+        m_Texture: {fileID: 2800000, guid: 1f8318ff85c49d043a7ea4ef0723012f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdditionalLightAttenuationStrength: 4
+    - _AdditionalLightEdge: -0.01
+    - _AdditionalLightGradientSmoothness: 0.67
+    - _AdditionalLightStrength: 4
+    - _AlphaClip: 0
+    - _AlphaClipThreshold: 0.5
+    - _AlphaToMask: 0
+    - _AmbientLightStrength: 1
+    - _AuxiliaryShadingSteps: 6
+    - _AuxiliaryShadingStrength: 0.6
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _Cull: 0
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _Enabled: 1
+    - _HalftoneGradientSmoothness: 2.04
+    - _HalftoneShadingEdge: 1.78
+    - _HalftoneTextureRotation: -49.2
+    - _LightingStrength: 0.99
+    - _MainTextureTiling: 1
+    - _Metallic: 0
+    - _NormalMapStrength: 65.03
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RimLight: 0.67
+    - _RimLightEdge: 0.7
+    - _RimLightGradientSmoothness: 1.23
+    - _RimLightStrength: 0.06
+    - _Rima: 1.81
+    - _Smoothness: 0
+    - _SpecularReflectionEdge: 1.8
+    - _SpecularReflectionGradientSmoothness: 2.4
+    - _SpecularReflectionStrength: 0.15
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _UseColorAbsorption: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _HalftoneTextureScrollSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _HalftoneTextureTiling: {r: 4, g: 4, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 0, b: 0, a: 1}
+    - _MainTextureOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MainTextureTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _ScrollSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _SecondaryColor: {r: 0.6981132, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

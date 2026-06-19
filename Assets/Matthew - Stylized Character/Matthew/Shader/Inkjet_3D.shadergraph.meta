@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c49fad6bc980e04448c4c0086e519d8b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 330106
+  packageName: Matthew | Stylized Character
+  packageVersion: 1.0.0
+  assetPath: Assets/Matthew - Stylized Character/Matthew/Shader/Inkjet_3D.shadergraph
+  uploadId: 782449
