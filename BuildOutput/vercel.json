@@ -3,19 +3,19 @@
     {
       "source": "/Build/BuildOutput.data.unityweb",
       "headers": [
-        { "key": "Content-Type", "value": "application/octet-stream" }
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate, no-transform" }
       ]
     },
     {
       "source": "/Build/BuildOutput.wasm.unityweb",
       "headers": [
-        { "key": "Content-Type", "value": "application/octet-stream" }
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate, no-transform" }
       ]
     },
     {
       "source": "/Build/BuildOutput.framework.js.unityweb",
       "headers": [
-        { "key": "Content-Type", "value": "application/octet-stream" }
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate, no-transform" }
       ]
     }
   ]
